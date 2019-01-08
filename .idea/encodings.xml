@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/algorithm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mytools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/aspectJ-load-time-weaving" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/demos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/jpa-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/jpa-query-demo/jpa-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/springboot/boot-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/springboot/boot-with-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/thread-dump-analyzer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/transactional-annotation-demo" charset="UTF-8" />
+  </component>
+</project>

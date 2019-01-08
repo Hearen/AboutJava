@@ -1,6 +1,9 @@
 package site.lhearen.ajava.base.time;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.OffsetDateTime;
+import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 public class OffsetDateTimeTest {
@@ -12,5 +15,10 @@ public class OffsetDateTimeTest {
         String timeStamp = OffsetDateTime.now().format(DateTimeFormatter.ISO_OFFSET_DATE_TIME).toString();
         timeStamp = timeStamp.replaceAll("[:|\\-|T|+|\\.]", "");
         System.out.println(timeStamp);
+        LocalDate today = LocalDate.now();
+        System.out.println(today.atTime(LocalTime.of(0, 0, 0)));
+        System.out.println(today.atTime(LocalTime.of(23, 59, 59)));
+        System.out.println(today.atTime(LocalTime.of(0, 0, 0)).toEpochSecond(ZoneOffset.UTC));
+        System.out.println(today.atTime(LocalTime.of(23, 59, 59)).toEpochSecond(ZoneOffset.UTC));
     }
 }

@@ -35,6 +35,7 @@
         <dependency>
             <groupId>site.hearen</groupId>
             <artifactId>ajava-mytools</artifactId>
+            <version>${mytools.version}</version>
         </dependency>
     </dependencies>
 

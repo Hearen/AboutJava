@@ -1,6 +1,7 @@
 package site.lhearen.ajava.base.io;
 
-import site.lhearen.ajava.mytools.util.ExceptionUtil;
+import static java.lang.System.out;
+import static java.util.stream.Collectors.toList;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -14,8 +15,8 @@ import java.util.Map;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import static java.lang.System.out;
-import static java.util.stream.Collectors.toList;
+import site.lhearen.ajava.mytools.util.ExceptionUtil;
+
 
 public class SearchFolderPartByPart {
 

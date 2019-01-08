@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AboutJava.iml" filepath="$PROJECT_DIR$/AboutJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/jpa-query-demo/jpa-demo/Jpa-flyway-lomdbok-postgresql.iml" filepath="$PROJECT_DIR$/spring/jpa-query-demo/jpa-demo/Jpa-flyway-lomdbok-postgresql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/about-java.iml" filepath="$PROJECT_DIR$/about-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/ajava-algorithm.iml" filepath="$PROJECT_DIR$/algorithm/ajava-algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern/ajava-pattern.iml" filepath="$PROJECT_DIR$/pattern/ajava-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/demos/demos.iml" filepath="$PROJECT_DIR$/spring/demos/demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/jpa-demo/jpa-demo.iml" filepath="$PROJECT_DIR$/spring/jpa-demo/jpa-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytools/mytools.iml" filepath="$PROJECT_DIR$/mytools/mytools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/thread-dump-analyzer/thread_dump_analyzer.iml" filepath="$PROJECT_DIR$/spring/thread-dump-analyzer/thread_dump_analyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/transactional-annotation-demo/transactional-demo.iml" filepath="$PROJECT_DIR$/spring/transactional-annotation-demo/transactional-demo.iml" />
+    </modules>
+  </component>
+</project>

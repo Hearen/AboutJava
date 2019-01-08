@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/base/multithread/pom.xml" />
+        <option value="$PROJECT_DIR$/mytools/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/aspectJ-load-time-weaving/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/springboot/boot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/springboot/boot-with-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/thread-dump-analyzer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/transactional-annotation-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/jpa-query-demo/jpa-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/jpa-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/base/pom.xml" />
+        <option value="$PROJECT_DIR$/base/collection/pom.xml" />
+        <option value="$PROJECT_DIR$/base/string/pom.xml" />
+        <option value="$PROJECT_DIR$/base/time/pom.xml" />
+        <option value="$PROJECT_DIR$/base/primitives/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/base/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

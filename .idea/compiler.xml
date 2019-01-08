@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ajava-algorithm" />
+        <module name="ajava-pattern" />
+        <module name="demos" />
+        <module name="gs-spring-boot" />
+        <module name="gs-spring-boot (1)" />
+        <module name="jpa-demo" />
+        <module name="Jpa-flyway-lomdbok-postgresql" />
+        <module name="mytools" />
+        <module name="thread_dump_analyzer" />
+        <module name="transactional-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="about-java" target="1.8" />
+      <module name="AboutJava" target="1.8" />
+      <module name="ajava-algorithm" target="1.8" />
+      <module name="ajava-pattern" target="1.8" />
+      <module name="annotation" target="1.8" />
+      <module name="aspectj-maven-example" target="1.8" />
+      <module name="base" target="1.8" />
+      <module name="base-parent" target="1.8" />
+      <module name="boot-demo" target="1.8" />
+      <module name="boot-with-aop" target="1.8" />
+      <module name="collection" target="1.8" />
+      <module name="demos" target="1.8" />
+      <module name="gs-spring-boot" target="1.8" />
+      <module name="gs-spring-boot (1)" target="1.8" />
+      <module name="jpa-demo" target="1.8" />
+      <module name="Jpa-flyway-lomdbok-postgresql" target="1.8" />
+      <module name="multithread" target="1.8" />
+      <module name="mytools" target="1.8" />
+      <module name="primitives" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="string" target="1.8" />
+      <module name="thread_dump_analyzer" target="1.8" />
+      <module name="time" target="1.8" />
+      <module name="transactional-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -91,13 +91,13 @@ public final class TheFeasibleQueue {
      * @return true when the job can be directly run (recorded in JOB_SUBMITTED_TIME_STAMP_MAP)
      */
     public static synchronized boolean append(ReportDetails reportDetails) {
-        String jobName = reportDetails.getJobName();
-        JOB_QUEUE.add(jobName);
-        JOB_DETAIL_MAP.put(jobName, reportDetails);
-        if (JOB_SUBMITTED_TIME_STAMP_MAP.size() < GENERATING_MAX_COUNT) {
-            JOB_SUBMITTED_TIME_STAMP_MAP.put(jobName, System.currentTimeMillis());
-            return true;
-        }
+//        String jobName = reportDetails.getJobName();
+//        JOB_QUEUE.add(jobName);
+//        JOB_DETAIL_MAP.put(jobName, reportDetails);
+//        if (JOB_SUBMITTED_TIME_STAMP_MAP.size() < GENERATING_MAX_COUNT) {
+//            JOB_SUBMITTED_TIME_STAMP_MAP.put(jobName, System.currentTimeMillis());
+//            return true;
+//        }
         return false;
     }
 
@@ -105,14 +105,14 @@ public final class TheFeasibleQueue {
      * The data store will no change but tasks submitted will be updated based on the queue;
      */
     private static synchronized void startQueued() {
-        int countToStart = Math.min(GENERATING_MAX_COUNT - JOB_SUBMITTED_TIME_STAMP_MAP.size(), JOB_QUEUE.size());
-        for (int i = 0; i < countToStart; ++i) {
-            String logViewerJobName = JOB_QUEUE.peek();
-            ReportDetails reportDetails = JOB_DETAIL_MAP.get(logViewerJobName);
-            JOB_SUBMITTED_TIME_STAMP_MAP.put(logViewerJobName, System.currentTimeMillis());
-            GENERATING_EXECUTOR.submit(() ->
-                    theExecutor.run(reportDetails.getJobName(), reportDetails.getThePath()));
-        }
+//        int countToStart = Math.min(GENERATING_MAX_COUNT - JOB_SUBMITTED_TIME_STAMP_MAP.size(), JOB_QUEUE.size());
+//        for (int i = 0; i < countToStart; ++i) {
+//            String logViewerJobName = JOB_QUEUE.peek();
+//            ReportDetails reportDetails = JOB_DETAIL_MAP.get(logViewerJobName);
+//            JOB_SUBMITTED_TIME_STAMP_MAP.put(logViewerJobName, System.currentTimeMillis());
+//            GENERATING_EXECUTOR.submit(() ->
+//                    theExecutor.run(reportDetails.getJobName(), reportDetails.getThePath()));
+//        }
     }
 
     /**

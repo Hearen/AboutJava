@@ -1,0 +1,14 @@
+
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸™ˆÕıÿÿÿÿ
+8squid:S1148"#Use a logger to log this exception.(â³‘
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö¡¹ê
+[squid:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(†·Éû
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(åö¡½úÿÿÿÿ
+Bsquid:S1604"(Make this anonymous inner class a lambda(Ø’Àüÿÿÿÿ
+_squid:S2147"ECombine this catch with the one at line 100, which has the same body.(üû’äúÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–íşÿÿÿÿ
+;squid:S1168"&Return an empty array instead of null.(¥¹ï

@@ -3,7 +3,10 @@ package site.lhearen.ajava.base.time;
 import static java.lang.System.out;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class TimeFormatter {
@@ -16,5 +19,8 @@ public class TimeFormatter {
         out.println(LocalDate.now().toString());
         out.println("abc".compareToIgnoreCase("2018-12-06"));
         out.println("ABC".compareToIgnoreCase("2018-12-06"));
+        out.println(LocalDateTime.now());
+        out.println(ZonedDateTime.now().getOffset());
+        out.println(ZoneOffset.systemDefault());
     }
 }

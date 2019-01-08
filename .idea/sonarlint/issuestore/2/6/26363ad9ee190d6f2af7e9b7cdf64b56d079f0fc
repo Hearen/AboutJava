@@ -1,0 +1,10 @@
+
+{squid:S1450"ZRemove the "theExecutor" field and declare it as a local variable in the relevant methods.(İ·êşÿÿÿÿ8Á¹õáú,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥ê€»øÿÿÿÿ8Á¹õáú,
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(“×·ôşÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚‡¦ë
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(å¶Ö™8Á¹õáú,
+Psquid:S1172"4Remove this unused method parameter "reportDetails".(¨¶ÅÈ8Ùôôáú,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ıÓÓ8Ùôôáú,
+Psquid:S1068"/Remove this unused "theExecutor" private field.(İ·êşÿÿÿÿ8Á¹õáú,

@@ -1,0 +1,16 @@
+
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(íî†Ýúÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯ùÝª
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(âóÅ‘8ïú½¬ü,
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ö§Öºþÿÿÿÿ
+Usquid:S1858"@"format" returns a string, there's no need to call "toString()".(Çƒ–˜
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(×–Ç„ýÿÿÿÿ8ŸÑº¬ü,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿùè‚8·Ó»¬ü,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñÀÐÞÿÿÿÿÿ8ïú½¬ü,

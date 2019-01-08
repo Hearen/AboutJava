@@ -8,6 +8,21 @@
     <artifactId>about-java</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>site.hearen</groupId>
+            <artifactId>ajava-mytools</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <name>about-java</name>
     <description>AboutJava</description>
     <url>https://github.com/hearen/AboutJava</url>
@@ -135,11 +150,6 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>site.hearen</groupId>
-                <artifactId>ajava-mytools</artifactId>
-                <version>${mytools.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

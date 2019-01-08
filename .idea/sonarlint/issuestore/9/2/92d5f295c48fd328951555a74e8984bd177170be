@@ -1,0 +1,8 @@
+
+8squid:S1148"#Use a logger to log this exception.(â³‘
+Fsquid:S1481",Remove this unused "pattern" local variable.(òò¯¬üÿÿÿÿ
+Fsquid:S1602",Remove useless curly braces around statement(‘¼Ôÿÿÿÿÿ
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(“×·ôşÿÿÿÿ8¥Ô¤ãú,
+Fsquid:S1602",Remove useless curly braces around statement(Û‚ó›üÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(–ÛÖğıÿÿÿÿ
