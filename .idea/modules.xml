@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AboutJava.iml" filepath="$PROJECT_DIR$/AboutJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demos/JasperServlet/JasperServlet.iml" filepath="$PROJECT_DIR$/demos/JasperServlet/JasperServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/jpa-query-demo/jpa-demo/Jpa-flyway-lomdbok-postgresql.iml" filepath="$PROJECT_DIR$/spring/jpa-query-demo/jpa-demo/Jpa-flyway-lomdbok-postgresql.iml" />
       <module fileurl="file://$PROJECT_DIR$/about-java.iml" filepath="$PROJECT_DIR$/about-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/ajava-algorithm.iml" filepath="$PROJECT_DIR$/algorithm/ajava-algorithm.iml" />

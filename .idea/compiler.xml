@@ -11,6 +11,8 @@
         <module name="demos" />
         <module name="gs-spring-boot" />
         <module name="gs-spring-boot (1)" />
+        <module name="HelloServlet" />
+        <module name="JasperServlet" />
         <module name="jpa-demo" />
         <module name="Jpa-flyway-lomdbok-postgresql" />
         <module name="mytools" />
@@ -33,6 +35,10 @@
       <module name="demos" target="1.8" />
       <module name="gs-spring-boot" target="1.8" />
       <module name="gs-spring-boot (1)" target="1.8" />
+      <module name="HelloServlet" target="1.7" />
+      <module name="jasper-reports" target="1.5" />
+      <module name="jasperreport" target="1.5" />
+      <module name="JasperServlet" target="1.7" />
       <module name="jpa-demo" target="1.8" />
       <module name="Jpa-flyway-lomdbok-postgresql" target="1.8" />
       <module name="multithread" target="1.8" />
