@@ -4,7 +4,14 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
@@ -13,15 +20,20 @@ import javax.servlet.http.HttpServletResponse;
 import net.sf.jasperreports.engine.JREmptyDataSource;
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperCompileManager;
+import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.engine.JasperReport;
-import net.sf.jasperreports.engine.JasperRunManager;
+import net.sf.jasperreports.engine.data.JRMapCollectionDataSource;
+import net.sf.jasperreports.engine.design.JasperDesign;
 import net.sf.jasperreports.engine.export.HtmlExporter;
+import net.sf.jasperreports.engine.xml.JRXmlLoader;
 import net.sf.jasperreports.export.SimpleExporterInput;
 import net.sf.jasperreports.export.SimpleHtmlExporterOutput;
 
-public final class test {
+public class TestReport {
+
+    public TestReport() {}
     public static void testPdf(HttpServletRequest request, HttpServletResponse response) throws IOException {
         ServletOutputStream servletOutputStream = response.getOutputStream();
         File reportFile = new File("/home/hearen/git/personal/AboutJava/demos/JasperServlet/src/main/resources/jasperreports_demo.jasper");
@@ -30,8 +42,10 @@ public final class test {
         try {
             JasperReport jasperReport = JasperCompileManager.compileReport(
                     "/home/hearen/git/personal/AboutJava//demos/JasperServlet/src/main/resources/jasperreports_demo.jrxml");
-            bytes = JasperRunManager.runReportToPdf(reportFile.getPath(),
-                    new HashMap(), new JREmptyDataSource());
+//            bytes = JasperRunManager.runReportToPdf(reportFile.getPath(),
+//                    new HashMap(), new JREmptyDataSource());
+            ReportService reportService = new ReportService();
+            bytes = reportService.getReportPdfBytes();
 
             response.setContentType("application/pdf");
             response.setContentLength(bytes.length);
@@ -43,6 +57,7 @@ public final class test {
             handleException(response, e);
         }
     }
+
 
     private static  void handleException(HttpServletResponse response, Exception e) throws IOException {
         // display stack trace in the browser
@@ -56,10 +71,12 @@ public final class test {
     public static void testHtml(HttpServletRequest request, HttpServletResponse response) throws IOException {
         try {
             ServletOutputStream servletOutputStream = response.getOutputStream();
-            JasperReport jasperReport = JasperCompileManager.compileReport(
-                    "/home/hearen/git/personal/AboutJava//demos/JasperServlet/src/main/resources/jasperreports_demo.jrxml");
-            JasperPrint jasperPrint = JasperFillManager.fillReport(
-                    jasperReport, new HashMap(), new JREmptyDataSource());
+//            JasperReport jasperReport = JasperCompileManager.compileReport(
+//                    "/home/hearen/git/personal/AboutJava//demos/JasperServlet/src/main/resources/jasperreports_demo.jrxml");
+//            JasperPrint jasperPrint = JasperFillManager.fillReport(
+//                    jasperReport, new HashMap(), new JREmptyDataSource());
+            ReportService reportService = new ReportService();
+            JasperPrint jasperPrint = reportService.getReportPrint();
             HtmlExporter exporter = new HtmlExporter();
 
             exporter.setExporterInput(new SimpleExporterInput(jasperPrint));

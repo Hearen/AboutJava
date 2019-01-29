@@ -47,8 +47,6 @@ s
 Cmytools/src/main/java/site/lhearen/ajava/mytools/util/IoHelper.java,e/f/ef56b28f45909f6a490dd36c5684c89c98478515
 i
 9demos/JasperServlet/src/main/java/JasperReportsIntro.java,0/b/0b51cc940151b9a28d57685eb23639f8799efc76
-v
-Fdemos/JasperServlet/src/main/java/JasperReportsBrowserDemoServlet.java,e/0/e041ca4a69d06ef37a250fd00a19d81a25ff7efe
 U
 %demos/JasperServlet/JasperServlet.iml,f/2/f2c9a465951a871f904b48003b813c25278c84c4
 K
@@ -57,3 +55,11 @@ c
 3demos/JasperServlet/src/main/webapp/WEB-INF/web.xml,f/5/f53119dfe0ee5c3d254b8bcc0e39fffd07528e7a
 ]
 -demos/JasperServlet/src/main/webapp/index.jsp,0/d/0df8c69ab4ca3bdf5429f043bba05888694ccdbd
+a
+1demos/JasperServlet/src/main/java/PdfServlet.java,f/c/fc23afab951be2a6bbcc77d4377082d75680b8f2
+b
+2demos/JasperServlet/src/main/java/HtmlServlet.java,f/2/f22cab4a544562b371b7fd24347edcf81038f2de
+l
+<demos/JasperServlet/src/main/java/service/ReportService.java,1/7/17c1317abf7273f37fc5b4390c89977adcd680a0
+a
+1demos/JasperServlet/src/main/java/TestReport.java,b/1/b177da48f94aae3a27228d4da1084cb97fd20714

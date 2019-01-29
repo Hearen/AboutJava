@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/base/primitives/pom.xml" />
         <option value="$PROJECT_DIR$/HelloServlet/pom.xml" />
         <option value="$PROJECT_DIR$/JasperServlet/pom.xml" />
+        <option value="$PROJECT_DIR$/demos/JasperServlet/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

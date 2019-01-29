@@ -1,0 +1,7 @@
+
+Nsquid:S1481"2Remove this unused "applicationId" local variable.(‹ıÚË8øò„Ä‰-
+]squid:S1854"ARemove this useless assignment to local variable "applicationId".(‹ıÚË8øò„Ä‰-
+bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(°‚Ëìüÿÿÿÿ8øò„Ä‰-
+Zsquid:S3400"9Remove this method and declare a constant for this value.(•˜¤ùûÿÿÿÿ8øò„Ä‰-
+Bsquid:S1168"&Return an empty array instead of null.(¥¹ï8øò„Ä‰-
+?squid:S1148"#Use a logger to log this exception.(â³‘8øò„Ä‰-

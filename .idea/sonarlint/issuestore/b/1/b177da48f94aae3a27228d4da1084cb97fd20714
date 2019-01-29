@@ -1,0 +1,22 @@
+
+hsquid:UselessImportCheck"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8ã‡…Ä‰-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(šÓè8ã‡…Ä‰-
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô˜ŒÁùÿÿÿÿ8ã‡…Ä‰-
+bsquid:UselessImportCheck"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ã‡…Ä‰-
+\squid:S1854"@Remove this useless assignment to local variable "jasperReport".(ğŸí8ã‡…Ä‰-
+Msquid:S1481"1Remove this unused "jasperReport" local variable.(ğŸí8ã‡…Ä‰-
+qsquid:UselessImportCheck"HRemove this unused import 'net.sf.jasperreports.engine.xml.JRXmlLoader'.(ò‘Ó8ã‡…Ä‰-
+_squid:S1854">Remove this useless assignment to local variable "reportFile".(Àè‹ùÿÿÿÿ8ã‡…Ä‰-
+>squid:S1118"Hide this public constructor.(ô˜ŒÁùÿÿÿÿ8ã‡…Ä‰-
+]squid:UselessImportCheck"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8ã‡…Ä‰-
+fsquid:UselessImportCheck"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ã‡…Ä‰-
+Psquid:S1481"/Remove this unused "reportFile" local variable.(Àè‹ùÿÿÿÿ8ã‡…Ä‰-
+[squid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8ã‡…Ä‰-
+usquid:UselessImportCheck"LRemove this unused import 'net.sf.jasperreports.engine.design.JasperDesign'.(ù¶ş—8ã‡…Ä‰-
+bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Àè‹ùÿÿÿÿ8ã‡…Ä‰-
+²squid:S1598"•This file "TestReport.java" should be located in "service" directory, not in "/home/hearen/git/personal/AboutJava/demos/JasperServlet/src/main/java".(¨•šŠ8ã‡…Ä‰-
+Vsquid:UselessImportCheck"-Remove this unused import 'java.time.ZoneId'.( Æ½“8ã‡…Ä‰-
+…squid:UselessImportCheck"WRemove this unused import 'net.sf.jasperreports.engine.data.JRMapCollectionDataSource'.(×ÊîËÿÿÿÿÿ8ã‡…Ä‰-
+Isquid:S1172".Remove this unused method parameter "request".(µ·¯8ã‡…Ä‰-
+usquid:UselessImportCheck"LRemove this unused import 'net.sf.jasperreports.engine.JasperExportManager'.(»ê•À8ã‡…Ä‰-
+Jsquid:S1172".Remove this unused method parameter "request".(µç–¨8ã‡…Ä‰-

@@ -7,23 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e5e6da-b2d2-45a3-8b63-18e31aee03bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/JasperServlet/src/main/java/PdfServlet.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67362125a3ffbf2bb936a729a0286c115451f32f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7547ce74cd5972b3a1546e10a83ebe6c2e3653b1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/935333d7f4f264848cb745d001efcf33a6eabbd6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d834bc931081b53198091ce0bea3b6c17dbc20b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af8dc9b8ca2df95498774bc6a3d3b541ee8a657f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfe4f9fe095a047b58f8a23d38202855581ea5d0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/JasperServlet/src/main/java/JasperReportsBrowserDemoServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/JasperServlet/target/HelloServlet/WEB-INF/classes/jasperreports_demo.jasper" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/JasperServlet/target/HelloServlet/WEB-INF/classes/jasperreports_demo.jrxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/JasperServlet/target/HelloServlet/WEB-INF/classes/jasperreports_demo.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/JasperServlet/target/classes/jasperreports_demo.jasper" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/JasperServlet/target/classes/jasperreports_demo.jrxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/JasperServlet/target/classes/jasperreports_demo.pdf" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/JasperServlet/src/main/java/TestReport.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e041ca4a69d06ef37a250fd00a19d81a25ff7efe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/test.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b51cc940151b9a28d57685eb23639f8799efc76" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b51cc940151b9a28d57685eb23639f8799efc76" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/JasperServlet/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/demos/JasperServlet/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/JasperServlet/JasperServlet.iml" afterPath="$PROJECT_DIR$/demos/JasperServlet/JasperServlet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/JasperServlet/pom.xml" afterPath="$PROJECT_DIR$/demos/JasperServlet/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/JasperServlet/src/main/java/HtmlServlet.java" afterPath="$PROJECT_DIR$/demos/JasperServlet/src/main/java/HtmlServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/JasperServlet/src/main/java/PdfServlet.java" afterPath="$PROJECT_DIR$/demos/JasperServlet/src/main/java/PdfServlet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/base/multithread/target/" />
@@ -66,7 +61,7 @@
       <file leaf-file-name="JasperReportsIntro.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/JasperReportsIntro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="306">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,8 +70,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jasperreports_demo.jasper" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/resources/jasperreports_demo.jasper">
+      <file leaf-file-name="PdfServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/PdfServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestReport.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/TestReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="78" column="68" lean-forward="false" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/ReportService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1369#1385#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JasperFillManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.2.0/jasperreports-6.2.0.jar!/net/sf/jasperreports/engine/JasperFillManager.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -85,45 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PdfServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/PdfServlet.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="31" column="107" lean-forward="false" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="107" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JasperRunManager.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.2.0/jasperreports-6.2.0.jar!/net/sf/jasperreports/engine/JasperRunManager.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="270" column="25" lean-forward="false" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jasperreports_demo.jrxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/resources/jasperreports_demo.jrxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="252">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -143,27 +141,29 @@
         <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HtmlServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HtmlServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/HtmlServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="216">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JasperServlet.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/JasperServlet.iml">
+      <file leaf-file-name="report-test.jrxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/resources/report-test.jrxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="4" column="79" lean-forward="false" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -208,11 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring/springboot/boot-demo/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/spring/springboot/boot-demo/src/main/java/hello/HelloController.java" />
-        <option value="$PROJECT_DIR$/spring/springboot/boot-demo/src/main/java/hello/Application.java" />
-        <option value="$PROJECT_DIR$/spring/springboot/boot-demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/base/multithread/src/thread/ScheduledTasks.java" />
         <option value="$PROJECT_DIR$/base/string/src/GetSubstring.java" />
         <option value="$PROJECT_DIR$/base/string/src/GetServiceName.java" />
         <option value="$PROJECT_DIR$/base/time/src/TimeFormatter.java" />
@@ -252,13 +247,18 @@
         <option value="$PROJECT_DIR$/JasperServlet/src/main/java/JasperReportsIntro.java" />
         <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/JasperReportsIntro.java" />
         <option value="$PROJECT_DIR$/demos/JasperServlet/JasperServlet.iml" />
-        <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/test.java" />
         <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/JasperReportsBrowserDemoServlet.java" />
         <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/PdfServlet.java" />
         <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/HtmlServlet.java" />
         <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/test.java" />
+        <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/TestReport.java" />
         <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/PdfServlet.java" />
         <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/HtmlServlet.java" />
+        <option value="$PROJECT_DIR$/demos/JasperServlet/pom.xml" />
+        <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/resources/report-test.jrxml" />
+        <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/ReportService.java" />
+        <option value="$PROJECT_DIR$/demos/JasperServlet/src/main/java/TestReport.java" />
       </list>
     </option>
   </component>
@@ -305,7 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,8 +389,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,18 +405,21 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.29288027" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demos" />
+      <recent name="$PROJECT_DIR$/HelloServlet/src/main/resources" />
+      <recent name="$PROJECT_DIR$/HelloServlet/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/HelloServlet/src/main/webapp/resources" />
+      <recent name="$PROJECT_DIR$/HelloServlet/src/main/webapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="queue" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HelloServlet/src/main" />
-      <recent name="$PROJECT_DIR$/base/base-parent" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="service" />
@@ -424,12 +427,10 @@
       <recent name="entity" />
       <recent name="queue" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/demos" />
-      <recent name="$PROJECT_DIR$/HelloServlet/src/main/resources" />
-      <recent name="$PROJECT_DIR$/HelloServlet/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/HelloServlet/src/main/webapp/resources" />
-      <recent name="$PROJECT_DIR$/HelloServlet/src/main/webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demos/JasperServlet/src/main/resources" />
+      <recent name="$PROJECT_DIR$/HelloServlet/src/main" />
+      <recent name="$PROJECT_DIR$/base/base-parent" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -518,7 +519,7 @@
       <envs />
     </configuration>
     <configuration name="JasperServlet" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/demo" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/pdf" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -785,7 +786,9 @@
       <workItem from="1547015854619" duration="1644000" />
       <workItem from="1547018159577" duration="82000" />
       <workItem from="1547023672603" duration="161000" />
-      <workItem from="1548396673490" duration="3040000" />
+      <workItem from="1548396673490" duration="7254000" />
+      <workItem from="1548741714998" duration="3583000" />
+      <workItem from="1548747732329" duration="1071000" />
     </task>
     <servers />
   </component>
@@ -822,7 +825,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86385000" />
+    <option name="totallyTimeSpent" value="95253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -838,7 +841,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6178011" sideWeight="0.49786553" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41465968" sideWeight="0.49786553" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -849,11 +852,10 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3685864" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5172775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2998933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3062967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -861,6 +863,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -924,9 +927,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/base/string/src/RegexFreeSpacing.java" />
-    <entry file="file://$PROJECT_DIR$/base/collection/src/TestComparator.java" />
-    <entry file="file://$PROJECT_DIR$/base/primitives/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/base/primitives/src/TestStatic.java" />
     <entry file="file://$PROJECT_DIR$/base/src/main/java/site/lhearen/ajava/base/time/TestDateTimeFormat.java" />
     <entry file="file://$PROJECT_DIR$/base/src/test/java/site/lhearen/ajava/base/lambda/se8_1/Sol_2.java">
@@ -1127,15 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="65" column="11" lean-forward="false" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,15 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-414">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,21 +1149,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.2.0/jasperreports-6.2.0.jar!/net/sf/jasperreports/engine/JasperRunManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
+        <state relative-caret-position="4698">
           <caret line="270" column="25" lean-forward="false" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/JasperReportsIntro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1189,39 +1169,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/test.java">
+    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/PdfServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="107" lean-forward="false" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="107" />
+        <state relative-caret-position="234">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/PdfServlet.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.2.0/jasperreports-6.2.0.jar!/net/sf/jasperreports/engine/JasperFillManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/resources/report-test.jrxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="4" column="79" lean-forward="false" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/HtmlServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/HtmlServlet.java">
+    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/service/ReportService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1369#1385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/JasperServlet/src/main/java/TestReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="78" column="68" lean-forward="false" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,10 +1256,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>HelloServlet:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.29288027" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1246,7 +1273,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.29288027" />
               </list>
             </option>
           </splitter-proportions>
@@ -1277,12 +1304,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>jasperreport</last-edited>
+          <last-edited>JasperServlet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.29288027" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1306,7 +1332,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.29288027" />
               </list>
             </option>
           </splitter-proportions>
